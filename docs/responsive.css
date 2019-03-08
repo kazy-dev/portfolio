@@ -1,0 +1,11 @@
+@media(max-width: 1000px) {
+    .top_contents_list p {
+        padding: 20px 30px;
+    }
+}
+
+@media(max-width: 670px) {
+    .top_contents_list p {
+        padding: 20px;
+    }
+}
