@@ -1,11 +1,11 @@
 @media(max-width: 670px) {
+    .top_contents_list p {
+        padding: 0px 10px;
+    }
+
     .top_name1 {
         font-size: 20px;
         line-height: 50px;
-    }
-    .top_contents_list p {
-        height: 45px;
-        padding: 20px;
     }
 
     .top_name2 {
@@ -13,7 +13,7 @@
     }
 
     .content {
-        padding: 0px 10px;
+        padding: 10px 10px;
         background-color: rgb(248, 248, 248);
     }
 
@@ -51,16 +51,13 @@
 }
 
 @media(max-width: 1000px) {
+
     .top_contents_list p {
-        padding: 20px 30px;
+        padding: 0px 20px;
     }
 
     .top_name2 {
         height: 600px;
-    }
-
-    .top_contents_list p {
-        padding: 20px;
     }
 
     .content {
