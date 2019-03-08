@@ -96,11 +96,6 @@ p {
 
 .p2_list {
 	padding: 50px 20px;
-	list-style-type: none;
 	text-align: center;
-}
-
-.p2_list li{
-	padding: 5px 40px
 }
 
