@@ -4,7 +4,6 @@ $(function(){
     var p = $('.top_contents_list').find('#list_about');
     p.click(function() {
         var position = $('.about').offset().top;
-        console.log(position);
         $("html,body").animate({
             scrollTop:position
         }, 500);
