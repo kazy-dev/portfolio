@@ -126,16 +126,15 @@ p {
 .skills img {
 	width: 150px;
 	height: 150px;
-	padding: 20px 20px;
+	padding: 10px 10px;
 	box-sizing: content-box;
+	margin:0 auto;
 }
 
 .skill_image_wrapper {
 	display: inline-block;
-}
-
-.skill_image_wrapper {
-	font-size: 20px;
+	font-size: 1rem;
+	width:30%;
 }
 
 /* ワークス */
