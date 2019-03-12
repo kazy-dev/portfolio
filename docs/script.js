@@ -1,5 +1,4 @@
 $(function () {
-    $('.top_name1').fadeIn();
 
     $('#age').text('年齢 ' + getAge(1989, 5, 15) + '歳');
 
