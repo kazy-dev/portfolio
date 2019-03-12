@@ -1,5 +1,5 @@
 @media(max-width: 670px) {
-    .top_contents_list p {
+    .top_contents_list ul li {
         padding: 0px 10px;
     }
 
@@ -47,6 +47,13 @@
     .p2_list {
         padding: 50px 10px;
         text-align: left;
+    }
+
+    .skills img {
+        width: 100px;
+        height: 100px;
+        padding: 20px 20px;
+        box-sizing: content-box;
     }
 }
 
