@@ -106,3 +106,28 @@ p {
 	text-align: center;
 }
 
+/* スキルズ */
+
+.skills {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#language_subtitle {
+	padding: 0px 0px 50px 0px;
+}
+
+.skills img {
+	width: 150px;
+	height: 150px;
+	padding: 20px 20px;
+	box-sizing: content-box;
+}
+
+.skill_image_wrapper {
+	display: inline-block;
+}
+
+.skill_image_wrapper {
+	font-size: 20px;
+}
