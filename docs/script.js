@@ -1,20 +1,30 @@
-$(function(){
-    $('#age').text('年齢 ' + getAge(1989,5,15) + '歳');
+$(function () {
+    $('.top_name1').fadeIn();
 
-    var p = $('.top_contents_list').find('#list_about');
-    p.click(function() {
-        var position = $('.about').offset().top;
-        $("html,body").animate({
-            scrollTop:position
-        }, 500);
-    })
+    $('#age').text('年齢 ' + getAge(1989, 5, 15) + '歳');
 
-function getAge(year, month, day) {
-  var birthday  = new Date(year, month-1, day);
-  var today = new Date();
-  var thisYearBirthday = new Date(today.getFullYear(), birthday.getMonth(), birthday.getDate());  
-  var age = today.getFullYear() - birthday.getFullYear();
-  return (today < thisYearBirthday)?age-1:age;
-}
+    // #で始まるアンカーをクリックした場合に処理
+    $('.top_contents_list a').click(function () {
+        console.log('クリック!');
+        // スクロールの速度
+        var speed = 400; // ミリ秒
+        // アンカーの値取得
+        var href = $(this).attr("href");
+        // 移動先を取得
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        // 移動先を数値で取得
+        var position = target.offset().top;
+        // スムーススクロール
+        $('body,html').animate({ scrollTop: position }, speed, 'swing');
+        return false;
+    });
+
+    function getAge(year, month, day) {
+        var birthday = new Date(year, month - 1, day);
+        var today = new Date();
+        var thisYearBirthday = new Date(today.getFullYear(), birthday.getMonth(), birthday.getDate());
+        var age = today.getFullYear() - birthday.getFullYear();
+        return (today < thisYearBirthday) ? age - 1 : age;
+    }
 
 })
