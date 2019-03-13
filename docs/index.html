@@ -15,7 +15,13 @@
 	<title>Yoshikazu Ishii's Portfolio</title>
 	<link rel="stylesheet" href="./stylesheet.css">
 	<link rel="stylesheet" href="./responsive.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -76,11 +82,6 @@
 					<img src="./resources/swift.png">
 					<p>Swift</p>
 				</div>
-				<div class="skill_image_wrapper">
-					<img src="./resources/js.png">
-					<p>JavaScript</p>
-				</div>
-
 				<p class="content_subtitle">開発環境</p>
 				<div class="skill_image_wrapper">
 					<img src="./resources/xcode.png">
@@ -90,21 +91,36 @@
 					<img src="./resources/git.png">
 					<p>Git</p>
 				</div>
-				<div class="skill_image_wrapper">
-					<img src="./resources/redmine.png">
-					<p>Redmine</p>
-				</div>
 			</div>
 
 			<div class="content works" id="works">
 				<p class="content_title">Works</p>
-				</div>
+				<div class="container">
+					<h1>.container</h1>
+				  </div>
+				  <div class="container-fluid">
+					<h1>.container-fruid</h1>
+				  </div>
+				  <div class="container">
+					<div class="row">
+					  <div class="col-sm">
+						One of three columns
+					  </div>
+					  <div class="col-sm">
+						One of three columns
+					  </div>
+					  <div class="col-sm">
+						One of three columns
+					  </div>
+					</div>
+				  </div>				  
+			</div>
 		</div>
 	</div>
 	<!-- ボトムラッパー -->
 	<div class=" bottom_wrapper">
-			</div>
-			<script src="script.js"></script>
+	</div>
+	<script src="script.js"></script>
 </body>
 
 </html>
