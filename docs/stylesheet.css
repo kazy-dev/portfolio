@@ -107,6 +107,11 @@ body {
     padding-bottom: 20px;
 }
 
+#scroll_back img {
+    padding-top: 30px;
+    padding-bottom: 0px;
+    width: 50px;
+}
 .copyright {
     padding: 20px 20px;
     font-family: 'Lato', sans-serif;
