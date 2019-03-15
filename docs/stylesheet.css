@@ -1,142 +1,114 @@
-*{
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
+* {
+    font-family: 'Noto Sans JP', "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    font-weight: 100;
+    color:  rgb(76, 76, 76);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+}
+
+a {
+    color:  rgb(76, 76, 76);
+    text-decoration: none;
 }
 
 body {
-	font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    text-align: center;
 }
 
-p {
-	color:  rgb(76, 76, 76);
+.nav {
+    padding: 10px;
 }
 
-.content_list_link {
-	cursor: pointer;
-	text-decoration: none;
-	color: white;
-	font-size: 1rem;
+.nav a {
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    padding: 0px 10px;
+    line-height: 40px;
 }
 
-/* トップネーム */
-.top_name1 {
-	width: 100%;
-	background-color: rgb(81, 178, 210);
-	text-align: center;
-	color: white;
-	line-height: 75px;
-	font-size: 28px;
-}
-
-/* トップコンテントリスト */
-
-.top_contents_list {
-	background-color: rgba(0, 0, 0, 0.7);
+.navi_menu {
     width: 100%;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: right;
 }
 
-.top_contents_list ul {
-	list-style: none;
+.footer_navi_menu {
+    text-align: left;
 }
 
-.top_contents_list ul li {
-	display: inline-block;
-	padding: 0px 20px;
+.top_image img{
+    min-width: 150px;
+    max-width: 300px;
+    width: 20%;
+    padding: 200px 0;
 }
 
-.top_name2 {
-	height: 600px;
-    display: flex;
-    justify-content: center;
-	align-items: center;
-	text-align: center;
+#about, #works {
+    background-color: rgb(248, 248, 248);
 }
 
-.top_name2_1 {
-	font-size: 28px;
+.content_title h2 {
+    font-family: 'Lato', sans-serif;
 }
 
-.content {
-	padding: 0px 200px;
-}
-
-/* プロフィール */
-
-.about {
-	background-color: rgb(248, 248, 248);
+.about_content {
+    display: table;
+    margin: 0 auto;
+    padding: 20px 20px;
 }
 
 .content_title {
-	font-size: 28px;
-	text-align: center;
-	padding: 50px 0px;
+    padding: 50px 0;
+}
+
+.about_content ul {
+    text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+    list-style: none;
+}
+
+.about_content li {
+    padding: 5px 40px;
+    font-size: 14px;
+}
+
+.about_content img {
+    display: table-cell;
+	vertical-align: middle;
+    min-width: 80px;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
+.history {
+    padding: 50px;
+    font-weight: 100;
+    font-size: 14px;
 }
 
 .content_subtitle {
-	font-size: 20px;
-	padding: 100px 0px 50px 0px;
-}
-
-.about_image_wrapper {
-	display: table;
-	margin: 0 auto;
-	padding: 20px 0px;
-}
-
-.p1_list {
-	list-style-type: none;
-	display: table-cell;
-	height: 100%;
-	vertical-align: middle;
-}
-
-.p1_list li {
-	padding: 5px 40px;
-}
-
-.content img {
-	display: table-cell;
-	vertical-align: middle;
-	width: 200px;
-	height: 200px;
-}
-
-.p2_list {
-	padding: 50px 20px;
-	text-align: center;
-}
-
-/* スキルズ */
-
-.skills {
-	text-align: center;
-	padding-bottom: 50px;
-}
-
-#language_subtitle {
-	padding: 0px 0px 50px 0px;
-}
-
-.skills img {
-	width: 150px;
-	height: 150px;
-	padding: 10px 10px;
-	box-sizing: content-box;
-	margin:0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .skill_image_wrapper {
-	display: inline-block;
-	font-size: 1rem;
-	width:30%;
+    display: inline-block;
+    padding: 30px 60px;
 }
 
-/* ワークス */
-.works {
-	background-color: rgb(248, 248, 248);
+.skill_image_wrapper img {
+    min-width: 150px;
+    max-width: 170px;
+    width: 40%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.copyright {
+    padding: 20px 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
 }
