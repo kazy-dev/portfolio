@@ -3,10 +3,10 @@ $(function () {
     $('#age').text('年齢 ' + getAge(1989, 5, 15) + '歳');
 
     // #で始まるアンカーをクリックした場合に処理
-    $('.navi_menu a, footer_navi_menu a').click(function () {
+    $('.navi_menu a, .footer_navi_menu a').click(function () {
         console.log('クリック!');
         // スクロールの速度
-        var speed = 400; // ミリ秒
+        var speed = 800; // ミリ秒
         // アンカーの値取得
         var href = $(this).attr("href");
         // 移動先を取得
@@ -14,7 +14,13 @@ $(function () {
         // 移動先を数値で取得
         var position = target.offset().top;
         // スムーススクロール
-        $('body,html').animate({ scrollTop: position }, speed, 'swing');
+        $('html, body').animate({
+            scrollTop: position
+        }, {
+                duration: speed,
+                easing: 'easeInQuad'
+            });
+
         return false;
     });
 
