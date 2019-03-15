@@ -11,115 +11,94 @@
 	<meta property="og:url" content="https://kazy-dev.github.io/portfolio/" />
 	<meta property="og:image" content="./resources/profile_image.png" />
 	<meta name="twitter:card" content="summary" />
-
 	<title>Yoshikazu Ishii's Portfolio</title>
-	<link rel="stylesheet" href="./stylesheet.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+	<!-- <link rel="stylesheet" href="./stylesheet.css"> -->
+	<link rel="stylesheet" href="./stylesheet_test.css">
 	<link rel="stylesheet" href="./responsive.css">
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+	<!-- jQuery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
 	<!-- トップラッパー -->
-	<div class="top_wrapper">
-		<p class="top_name1">Yoshikazu Ishii</p>
-		<!-- トップタブリスト -->
-		<div class="top_contents_list">
-			<ul>
-				<li>
-					<a class="content_list_link" href="#about">About</a>
-				</li>
-				<li>
-					<a class="content_list_link" href="#skills">Skills</a>
-				</li>
-				<li>
-					<a class="content_list_link" href="#works">Works</a>
-				</li>
-				<li>
-					<a class="content_list_link" href="#contact">Contact</a>
-				</li>
-			</ul>
+	<header>
+		<div class="nav navi_menu">
+			<a href="#about">About</a>
+			<a href="#skills">Skills</a>
+			<a href="#works">Works</a>
+			<a href="#contact">Contact</a>
 		</div>
-		<div class="top_name2">
-			<div class="top_name2_inner">
-				<p class="top_name2_1">Yoshikazu Ishii</p>
-				<p class="top_name2_2">iOS Engineer</p>
-			</div>
+		<div class="top_image">
+			<img src="./resources/top_logo@3x.png">
 		</div>
-	</div>
-	<!-- メインラッパー -->
-	<div class="content_wrapper">
-		<div class="contents">
-			<div class="content about" id="about">
-				<p class="content_title">About</p>
-				<div class="about_image_wrapper">
-					<ul class="p1_list">
+	</header>
+	<main>
+		<div class="main_wrapper">
+
+			<div class="content" id="about">
+				<div class="content_title">
+					<h2>About</h2>
+				</div>
+
+				<div class="about_content">
+					<ul>
 						<li id="age">年齢 29歳</li>
 						<li>出身 東京都</li>
-						<li>趣味 ドラム、フットサル</li>
+						<li>趣味 ドラム</li>
 					</ul>
-					<img src="./resources/profile_image.png">
+
+					<img src="./resources/profile_image@2.png">
+
 				</div>
-				<div class="p2_list">
-					<p>大学を卒業後、バンド活動に励むも活動休止になり、名古屋で営業職に就く。</p>
-					<p>2度の転勤を経験後退社、自分のやりたい仕事を見つめ直す。</p>
-					<p>名古屋の職業訓練でJavaを学び、2016年からアプリエンジニアとして活動。</p>
+				<div class="history">
+					<p>大学を卒業後、名古屋で営業職を経験し、</p>
+					<p>2016年から都内でアプリエンジニアとして活動しています。</p>
 				</div>
 			</div>
-			<div class="content skills" id="skills">
-				<p class="content_title">Skills</p>
-				<p class="content_subtitle" id="language_subtitle">言語</p>
+			<div class="content" id="skills">
+				<div class="content_title">
+					<h2>Skills</h2>
+				</div>
+				<p class="content_subtitle">言語</p>
 				<div class="skill_image_wrapper">
-					<img src="./resources/objc.png">
-					<p>Objective-C</p>
+					<img src="./resources/objc@2x.png">
 				</div>
 				<div class="skill_image_wrapper">
-					<img src="./resources/swift.png">
-					<p>Swift</p>
+					<img src="./resources/swift@2x.png">
 				</div>
 				<p class="content_subtitle">開発環境</p>
 				<div class="skill_image_wrapper">
-					<img src="./resources/xcode.png">
-					<p>Xcode</p>
+					<img src="./resources/xcode@2x.png">
 				</div>
 				<div class="skill_image_wrapper">
-					<img src="./resources/git.png">
-					<p>Git</p>
+					<img src="./resources/git@2x.png">
 				</div>
 			</div>
 
 			<div class="content works" id="works">
-				<p class="content_title">Works</p>
-				<div class="container">
-					<h1>.container</h1>
-				  </div>
-				  <div class="container-fluid">
-					<h1>.container-fruid</h1>
-				  </div>
-				  <div class="container">
-					<div class="row">
-					  <div class="col-sm">
-						One of three columns
-					  </div>
-					  <div class="col-sm">
-						One of three columns
-					  </div>
-					  <div class="col-sm">
-						One of three columns
-					  </div>
-					</div>
-				  </div>				  
+				<div class="content_title">
+					<h2>Works</h2>
+				</div>
 			</div>
 		</div>
-	</div>
-	<!-- ボトムラッパー -->
-	<div class=" bottom_wrapper">
-	</div>
+	</main>
+	<footer>
+		<div class="footer_wrapper">
+			<div class="nav footer_navi_menu">
+				<a href="#about">About</a>
+				<a href="#skills">Skills</a>
+				<a href="#works">Works</a>
+				<a href="#contact">Contact</a>
+			</div>
+			<p class="copyright">© 2019 kazy.dev.</p>
+		</div>
+	</footer>
 	<script src="script.js"></script>
 </body>
 

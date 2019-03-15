@@ -3,7 +3,7 @@ $(function () {
     $('#age').text('年齢 ' + getAge(1989, 5, 15) + '歳');
 
     // #で始まるアンカーをクリックした場合に処理
-    $('.top_contents_list a').click(function () {
+    $('.navi_menu a, footer_navi_menu a').click(function () {
         console.log('クリック!');
         // スクロールの速度
         var speed = 400; // ミリ秒

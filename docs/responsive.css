@@ -1,20 +1,49 @@
-@media(max-width: 1000px) {
-
-    .top_contents_list p {
-        padding: 0px 20px;
+/* @media(min-width: 1000px) {
+    .about_content li {
+        font-size: 14px;
     }
-
-    .top_name2 {
-        height: 600px;
-    }
-
-    .content {
-        padding: 0px 20px 50px 20px;
+    .history {
+        font-size: 14px;
     }
 }
 
+@media(max-width: 1000px) {
+    .about_content li {
+        font-size: 14px;
+    }
+    .history {
+        font-size: 14px;
+    }
+} */
+
 @media(max-width: 670px) {
-    .top_contents_list ul li {
+
+    .nav a {
+        font-size: 10px;
+    }
+
+    .about_content img {
+        display: block;
+        margin: 0 auto;
+        padding: 20px 20px;
+    }
+
+    .about_content ul {
+        display: block;
+        text-align: center;
+    }
+
+    .about_content li {
+        padding: 0px 10px;
+    }
+
+    .history {
+        padding: 10px 40px;
+        text-align: left;
+    }
+}
+
+/*    .top_contents_list ul li {
         padding: 0px 10px;
     }
 
@@ -65,7 +94,7 @@
 
     /* skills*/
 
-    .skills img {
+    /* .skills img {
         width: 80px;
         height: 80px;
     }
@@ -74,4 +103,4 @@
         width: fit-content;
         padding-bottom: 20px;
     }
-}
+}  */
