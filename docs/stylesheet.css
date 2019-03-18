@@ -107,6 +107,29 @@ body {
     padding-bottom: 20px;
 }
 
+.skills_description {
+    padding: 0 20% 20px;
+    font-size: 14px;
+}
+
+#works img {
+    max-width: 200px;
+    width: 30%;
+    height: auto;
+    padding-bottom: 5px;
+    filter: drop-shadow(3px 3px 3px black);
+}
+
+#works img:hover {
+    opacity: 0.6;
+}
+
+#works p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+
 #scroll_back img {
     padding-top: 30px;
     padding-bottom: 0px;

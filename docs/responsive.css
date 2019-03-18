@@ -37,6 +37,11 @@
         padding: 0px 10px;
     }
 
+    .skills_description {
+        padding: 0 30px 20px;
+        text-align: left;
+    }
+
     .history {
         padding: 10px 30px;
         text-align: left;
