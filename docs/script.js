@@ -1,6 +1,6 @@
 $(function () {
 
-    $('body').hide().fadeIn(8000);
+    $('body').hide().fadeIn(5000);
 
     $('#age').text('年齢 ' + getAge(1989, 5, 15) + '歳');
 
