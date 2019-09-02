@@ -117,7 +117,7 @@ body {
 
 #works img {
     max-width: 200px;
-    width: 30%;
+    width: 100%;
     height: auto;
     padding-bottom: 5px;
     filter: drop-shadow(3px 3px 3px black);
@@ -131,6 +131,17 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     padding-bottom: 50px;
+}
+
+.works_contents {
+    width: 100%;
+}
+
+.works_content {
+    width: 50%;
+    max-width: 200px;
+    display: inline-block;
+    margin: 40px;
 }
 
 #contact {
