@@ -48,11 +48,20 @@ body {
     padding: 200px 0;
 }
 
-#about, #works {
+#about, #skills, #contact {
     background-color: rgb(248, 248, 248);
 }
 
 .content_title h2 {
+    font-family: 'Lato', sans-serif;
+    color: #056F90;
+}
+
+.content_subtitle h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.content_subtitle2 h3 {
     font-family: 'Lato', sans-serif;
 }
 
@@ -64,6 +73,10 @@ body {
 
 .content_title {
     padding: 50px 0;
+}
+
+.content_subtitle2 {
+    padding: 10px 0;
 }
 
 .about_content ul {
@@ -88,14 +101,29 @@ body {
 }
 
 .history {
-    padding: 50px;
+    padding: 20px 50px 50px;
     font-weight: 100;
+    font-size: 14px;
+}
+
+.history>ul {
+    text-align: left;
+    display: inline-block;
+    list-style: none;
+}
+
+.history>ul>li {
+    padding: 5px 40px;
     font-size: 14px;
 }
 
 .content_subtitle {
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.service_description {
+    padding-bottom: 50px;
 }
 
 .skill_image_wrapper {
@@ -153,7 +181,7 @@ body {
 }
 
 .footer_wrapper {
-    background-color: rgb(248, 248, 248);
+    background-color: white;
 }
 
 #scroll_back img {

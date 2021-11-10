@@ -2,7 +2,7 @@ $(function () {
 
     $('body').hide().fadeIn(5000);
 
-    $('#age').text('年齢 ' + getAge(1989, 5, 15) + '歳');
+    // $('#age').text('年齢 ' + getAge(1989, 5, 15) + '歳');
 
     // #で始まるアンカーをクリックした場合に処理
     $('.navi_menu a, .footer_navi_menu a, #scroll_back, #works a').click(function () {
