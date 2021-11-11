@@ -10,16 +10,17 @@
         padding: 20px 20px;
     }
 
-    .about_content ul {
-        display: block;
-        text-align: center;
-    }
-
     .about_content li {
-        padding: 0px 10px;
+        padding: 0px 10px!important;
+        font-size: 10px!important;
     }
 
-    .skills_description {
+    .history li {
+        padding: 0px 10px!important;
+        font-size: 10px!important;
+    }
+
+    .skills_description, .service_description {
         padding: 0 30px 20px;
         text-align: left;
         font-size: 12px;
