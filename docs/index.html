@@ -1,197 +1,231 @@
 <!DOCTYPE html>
 <html>
+  <head prefix="og: https://ogp.me/ns# website: https://ogp.me/ns/website#">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-136511547-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head prefix="og: https://ogp.me/ns# website: https://ogp.me/ns/website#">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136511547-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
+      gtag("config", "UA-136511547-1");
+    </script>
 
-		gtag('config', 'UA-136511547-1');
-	</script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="MULE合同会社のホームページです" />
+    <meta property="og:title" content="MULE合同会社" />
+    <meta property="og:description" content="MULE合同会社のホームページ" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kazy-dev.github.io/portfolio/" />
+    <meta property="og:image" content="./resources/ios_icon@2x.png" />
+    <meta name="twitter:card" content="summary" />
+    <title>MULE LLC</title>
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="MULE合同会社のホームページです">
-	<meta property="og:title" content="MULE合同会社">
-	<meta property="og:description" content="MULE合同会社のホームページ" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://kazy-dev.github.io/portfolio/" />
-	<meta property="og:image" content="./resources/ios_icon@2x.png" />
-	<meta name="twitter:card" content="summary" />
-	<title>MULE LLC</title>
+    <link rel="shortcut icon" href="./resources/ios_icon@2x.png" />
 
-	<link rel="shortcut icon" href="./resources/ios_icon@2x.png">
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+JP"
+      rel="stylesheet"
+    />
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
 
-	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
-	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheet.css" />
+    <link rel="stylesheet" href="./responsive.css" />
 
-	<link rel="stylesheet" href="./stylesheet.css">
-	<link rel="stylesheet" href="./responsive.css">
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  </head>
 
+  <body>
+    <!-- トップラッパー -->
+    <header>
+      <div id="top"></div>
+      <div class="nav navi_menu">
+        <a href="#about">Company</a>
+        <a href="#service">Service</a>
+        <a href="#skills">Skills</a>
+        <a href="#works">Works</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="top_image">
+        <img src="./resources/top_logo@3x.png" />
+      </div>
+    </header>
+    <main>
+      <div class="main_wrapper">
+        <div class="content" id="about">
+          <div class="content_title">
+            <h2>Company</h2>
+          </div>
 
-	<!-- jQuery-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-</head>
+          <div class="about_content">
+            <ul>
+              <li id="company">会社名：MULE合同会社</li>
+              <li id="adress">住所　：東京都台東区上野３丁目14番2号</li>
+              <li id="owner">代表者：石井 良和</li>
+              <li id="capital">資本金：3,000,000円</li>
+              <li id="business">
+                事業　：ソフトウェア開発、動画制作、WEB広告代理業
+              </li>
+            </ul>
 
-<body>
-	<!-- トップラッパー -->
-	<header>
-		<div id="top"></div>
-		<div class="nav navi_menu">
-			<a href="#about">Company</a>
-			<a href="#service">Service</a>
-			<a href="#skills">Skills</a>
-			<a href="#works">Works</a>
-			<a href="#contact">Contact</a>
-		</div>
-		<div class="top_image">
-			<img src="./resources/top_logo@3x.png">
-		</div>
-	</header>
-	<main>
-		<div class="main_wrapper">
-
-			<div class="content" id="about">
-				<div class="content_title">
-					<h2>Company</h2>
-				</div>
-
-				<div class="about_content">
-					<ul>
-						<li id="company">会社名：MULE合同会社</li>
-						<li id="adress">住所　：東京都台東区上野３丁目14番2号</li>
-						<li id="owner">代表者：石井 良和</li>
-						<li id="capital">資本金：3,000,000円</li>
-						<li id="business">事業　：ソフトウェア開発、動画制作、WEB広告代理業</li>
-					</ul>
-
-					<img src="./resources/profile_image@2.png">
-
-				</div>
-				<div class="content_subtitle2">
-					<h3>History</h3>
-				</div>
-				<div class="history">
-					<ul>
-						<li>2016：ソフトウェア受託開発会社でiOSエンジニアとなる</li>
-						<li>2019：フリーランスiOSエンジニアとして独立</li>
-						<li>2020：Flutterアプリ開発、WEB広告代理業を開始</li>
-						<li>2021：MULE合同会社設立</li>
-					</ul>
-				</div>
-			</div>
-			<div class="content" id="service">
-				<div class="content_title">
-					<h2>Service</h2>
-				</div>
-				<div class="skill_image_wrapper">
-					<img src="./resources/mobile_app_dev@2x.png">
-				</div>
-				<div class="skill_image_wrapper">
-					<img src="./resources/web_ad@2x.png">
-				</div>
-				<div class="skill_image_wrapper">
-					<img src="./resources/movie@2x.png">
-				</div>
-				<div class="service_description">
-					<p>アプリ開発をメインで行っておりますが、<br>WEB広告、動画制作についてのご相談も受け付けております。</p>
-				</div>
-			</div>
-			<div class="content" id="skills">
-				<div class="content_title">
-					<h2>Skills</h2>
-				</div>
-				<p class="content_subtitle">開発言語</p>
-				<div class="skill_image_wrapper">
-					<img src="./resources/objc@2x.png">
-				</div>
-				<div class="skill_image_wrapper">
-					<img src="./resources/swift@2x.png">
-				</div>
-				<div class="skill_image_wrapper">
-					<img src="./resources/dart@2x.png">
-				</div>
-				<div class="skills_description">
-					<p>受託開発にて3年間iOSアプリの新規開発、改修を経験。開発モデルはウォーターフォール。</p>
-					<p>基本的な実装知識、およびIBを使用したAutolayout、iPhoneX対応、API通信を用いた開発を経験。</p>
-					<p>また、時代の流れと共にMRCからARCの移行を経験し、そしてSwiftへ...</p>
-					<p>その後、Flutterによるマルチプラットフォームでの開発を始め、現在に至る</p>
-				</div>
-				<p class="content_subtitle">開発環境</p>
-				<div class="skill_image_wrapper">
-					<img src="./resources/xcode@2x.png">
-				</div>
-				<div class="skill_image_wrapper">
-					<img src="./resources/flutter@2x.png">
-				</div>
-				<div class="skill_image_wrapper">
-					<img src="./resources/android_studio@2x.png">
-				</div>
-			</div>
-			<div class="content" id="works">
-				<div class="content_title">
-					<h2>Works</h2>
-				</div>
-				<div class="works_contents">
-					<div class="works_content">
-						<a href="#top"><img src="./resources/work_portfolio.png"></a>
-						<p>My Portfolio</p>
-					</div>
-					<span></span>
-					<div class="works_content">
-						<a href="https://itunes.apple.com/us/app/spire/id1461442936?mt=8&ign-mpt=uo%3D4" target="_blank"><img src="./resources/app_icon.png"></a>
-						<p>Spire</p>
-					</div>
-				</div>
-			</div>
-			<div class="content" id="contact">
-				<div class="content_title">
-					<h2>Contact</h2>
-				</div>
-				<div class="contact_discription">
-					<p>仕事のご依頼・ご相談、その他お問い合わせは</p>
-					<p>Twitter DMでご連絡ください</p>
-				</div>
-			</div>
-		</div>
-	</main>
-	<footer>
-		<div class="footer_wrapper">
-			<a href="#top" id="scroll_back"><img src="./resources/scrolling_top@2x.png"></a>
-			<div class="nav footer_navi_menu">
-				<a href="#about">Company</a>
-				<a href="#service">Service</a>
-				<a href="#skills">Skills</a>
-				<a href="#works">Works</a>
-				<a href="#contact">Contact</a>
-			</div>
-			<div class="icon_area">
-				<a href="https://github.com/kazy-dev" target="_blank">
-					<span class="fa-stack">
-						<i class="fab fa-github fa-2x icon"></i>
-					</span>
-				</a>
-				<a href="https://twitter.com/kazy_developer" target="_blank">
-					<span class="fa-stack">
-						<i class="fab fa-twitter fa-2x icon"></i>
-					</span>
-				</a>
-				<a href="https://qiita.com/kazy_dev" target="_blank">
-					<span class="fa-stack">
-						<i class="fa fa-square fa-fw fa-stack-2x icon"></i>
-						<i class="fa fa-search fa-fw fa-stack-1x fa-inverse fa-2x"></i>
-					</span>
-				</a>
-			</div>
-			<p class="copyright">© 2019 kazy.dev.</p>
-		</div>
-	</footer>
-	<script src="script.js"></script>
-</body>
-
+            <img src="./resources/profile_image@2.png" />
+          </div>
+          <div class="content_subtitle2">
+            <h3>History</h3>
+          </div>
+          <div class="history">
+            <ul>
+              <li>2016：ソフトウェア受託開発会社でiOSエンジニアとなる</li>
+              <li>2019：フリーランスiOSエンジニアとして独立</li>
+              <li>2020：Flutterアプリ開発、WEB広告代理業を開始</li>
+              <li>2021：MULE合同会社設立</li>
+            </ul>
+          </div>
+        </div>
+        <div class="content" id="service">
+          <div class="content_title">
+            <h2>Service</h2>
+          </div>
+          <div class="skill_image_wrapper">
+            <img src="./resources/mobile_app_dev@2x.png" />
+          </div>
+          <div class="skill_image_wrapper">
+            <img src="./resources/web_ad@2x.png" />
+          </div>
+          <div class="skill_image_wrapper">
+            <img src="./resources/movie@2x.png" />
+          </div>
+          <div class="service_description">
+            <p>
+              アプリ開発をメインで行っておりますが、<br />WEB広告、動画制作についてのご相談も受け付けております。
+            </p>
+          </div>
+        </div>
+        <div class="content" id="skills">
+          <div class="content_title">
+            <h2>Skills</h2>
+          </div>
+          <p class="content_subtitle">開発言語</p>
+          <div class="skill_image_wrapper">
+            <img src="./resources/objc@2x.png" />
+          </div>
+          <div class="skill_image_wrapper">
+            <img src="./resources/swift@2x.png" />
+          </div>
+          <div class="skill_image_wrapper">
+            <img src="./resources/dart@2x.png" />
+          </div>
+          <div class="skills_description">
+            <p>
+              受託開発にて3年間iOSアプリの新規開発、改修を経験。開発モデルはウォーターフォール。
+            </p>
+            <p>
+              基本的な実装知識、およびIBを使用したAutolayout、iPhoneX対応、API通信を用いた開発を経験。
+            </p>
+            <p>
+              また、時代の流れと共にMRCからARCの移行を経験し、そしてSwiftへ...
+            </p>
+            <p>
+              その後、Flutterによるマルチプラットフォームでの開発を始め、現在に至る
+            </p>
+          </div>
+          <p class="content_subtitle">開発環境</p>
+          <div class="skill_image_wrapper">
+            <img src="./resources/xcode@2x.png" />
+          </div>
+          <div class="skill_image_wrapper">
+            <img src="./resources/flutter@2x.png" />
+          </div>
+          <div class="skill_image_wrapper">
+            <img src="./resources/android_studio@2x.png" />
+          </div>
+        </div>
+        <div class="content" id="works">
+          <div class="content_title">
+            <h2>Works</h2>
+          </div>
+          <div class="works_contents">
+            <div class="works_content">
+              <a href="#top"><img src="./resources/work_portfolio.png" /></a>
+              <p>My Portfolio</p>
+            </div>
+            <span></span>
+            <div class="works_content">
+              <a
+                href="https://itunes.apple.com/us/app/spire/id1461442936?mt=8&ign-mpt=uo%3D4"
+                target="_blank"
+                ><img src="./resources/app_icon.png"
+              /></a>
+              <p>Spire</p>
+            </div>
+            <span></span>
+            <div class="works_content">
+              <a href="https://www.progress-bar-timer.site/" target="_blank"
+                ><img src="./resources/progres_timer_app_icon_rect.png"
+              /></a>
+              <p>Progress Bar Timer</p>
+            </div>
+          </div>
+        </div>
+        <div class="content" id="contact">
+          <div class="content_title">
+            <h2>Contact</h2>
+          </div>
+          <div class="contact_discription">
+            <p>仕事のご依頼・ご相談、その他お問い合わせは</p>
+            <p>Twitter DMでご連絡ください</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer_wrapper">
+        <a href="#top" id="scroll_back"
+          ><img src="./resources/scrolling_top@2x.png"
+        /></a>
+        <div class="nav footer_navi_menu">
+          <a href="#about">Company</a>
+          <a href="#service">Service</a>
+          <a href="#skills">Skills</a>
+          <a href="#works">Works</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="icon_area">
+          <a href="https://github.com/kazy-dev" target="_blank">
+            <span class="fa-stack">
+              <i class="fab fa-github fa-2x icon"></i>
+            </span>
+          </a>
+          <a href="https://twitter.com/kazy_developer" target="_blank">
+            <span class="fa-stack">
+              <i class="fab fa-twitter fa-2x icon"></i>
+            </span>
+          </a>
+          <a href="https://qiita.com/kazy_dev" target="_blank">
+            <span class="fa-stack">
+              <i class="fa fa-square fa-fw fa-stack-2x icon"></i>
+              <i class="fa fa-search fa-fw fa-stack-1x fa-inverse fa-2x"></i>
+            </span>
+          </a>
+        </div>
+        <p class="copyright">© 2019 kazy.dev.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
